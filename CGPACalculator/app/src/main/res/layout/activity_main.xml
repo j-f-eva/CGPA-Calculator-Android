@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:padding="100sp"
+    android:background="@drawable/holding_page"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#B3B9DC"
+                android:gravity="center_horizontal"
+                android:backgroundTint="#F6ED64"
+                android:text="GPA and CGPA Calculator"
+                android:textColor="#0B0000"
+                android:textSize="15dp"
+                android:textStyle="bold">
+
+            </TextView>
+
+            <LinearLayout
+                android:layout_marginBottom="25dp"
+                android:textAlignment="center"
+                android:padding="10dp"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <Button
+                    android:layout_marginBottom="25dp"
+                    android:textStyle="bold"
+                    android:textColor="#430808"
+                    android:backgroundTint="#7CCDE8"
+                    android:id="@+id/gpaID"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="GPA" />
+
+                <Button
+                    android:layout_marginBottom="25dp"
+                    android:id="@+id/cgpaID"
+                    android:textColor="#430808"
+                    android:backgroundTint="#7CCDE8"
+                    android:textStyle="bold"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="CGPA"/>
+
+
+                <Button
+                    android:backgroundTint="#EF4818"
+                    android:id="@+id/allertButtonID"
+                    android:text="EXIT"
+                    android:textSize="20dp"
+                    android:textColor="#090000"
+                    android:textStyle="bold"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                </Button>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
